@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 	cout << "Enter the number of the day(enter - 1 to quite): ";
 	cin >> userDate;
 	
-	while(date != "-1"){
+	while(userDate != "-1"){
 		inFile.open("DATES.txt");
 		
 		if(inFile.is_open()){
@@ -38,17 +38,18 @@ int main(int argc, char *argv[]) {
 				cout << adEvent << endl << endl;
 				cout << "additional events - ";
 				cin >> moEvent;
+				cout << "_______________________________" << endl;
 				isFound = true;
 
 	
+				}
+				
+				
+			}
 			inFile.close();
 			
 			if(!isFound){
 				cout << "This date does not exist, stop pissing around" << endl;
-			}
-			
-			
-				}
 
 			}
 		}
