@@ -38,17 +38,18 @@ int main(int argc, char *argv[]) {
 				cout << adEvent << endl << endl;
 				cout << "additional events - ";
 				cin >> moEvent;
+				cout << "_______________________________" << endl;
 				isFound = true;
 
 	
+				}
+				
+				
+			}
 			inFile.close();
 			
 			if(!isFound){
 				cout << "This date does not exist, stop pissing around" << endl;
-			}
-			
-			
-				}
 
 			}
 		}
