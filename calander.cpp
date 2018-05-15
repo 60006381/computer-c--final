@@ -85,96 +85,96 @@ int main(int argc, char *argv[]) {
 					if(userDate == "1"){
 						cout << "," <<  one << endl << endl;
 					}
-																	else if(userDate == "2"){
-																		cout << "," << two << endl << endl;
-																	}
-																	else if(userDate == "3"){
-																		cout << "," << three << endl << endl;
-																	}
-																	else if(userDate == "4"){
-																		cout <<"," <<  four << endl << endl;
-																	}
-																	else if(userDate == "5"){
-																		cout << "," << five << endl << endl;
-																	}
-																	else if(userDate == "6"){
-																		cout << "," <<  six << endl << endl;
-																	}
-																	else if(userDate == "7"){
-																		cout << "," <<  seven << endl << endl;
-																	}
-																	else if(userDate == "8"){
-																		cout << "," <<  eight << endl << endl;
-																	}
-																	else if(userDate == "9"){
-																		cout << "," <<  nine << endl << endl;
-																	}
-																	else if(userDate == "10"){
-																		cout << "," << ten << endl << endl;
-																	}
-																	else if(userDate == "11"){
-																		cout << "," << eleven << endl << endl;
-																	}
-																	else if(userDate == "12"){
-																		cout << "," << twelve << endl << endl;
-																	}
-																	else if(userDate == "13"){
-																		cout << "," << thirteen << endl << endl;
-																	}
-																	else if(userDate == "14"){
-																		cout << "," << fourteen << endl << endl;
-																	}
-																	else if(userDate == "15"){
-																		cout << "," << fifteen << endl << endl;
-																	}
-																	else if(userDate == "16"){
-																		cout << "," << sixteen << endl << endl;
-																	}
-																	else if(userDate == "17"){
-																		cout << "," << seventeen << endl << endl;
-																	}
-																	else if(userDate == "18"){
-																		cout << "," << eighteen << endl << endl;
-																	}
-																	else if(userDate == "19"){
-																		cout << "," << ninteen << endl << endl;
-																	}
-																	else if(userDate == "20"){
-																		cout << "," << twenty << endl << endl;
-																	}
-																	else if(userDate == "21"){
-																		cout << "," << twentyOne << endl << endl;
-																	}
-																	else if(userDate == "22"){
-																		cout << "," << twentyTwo << endl << endl;
-																	}
-																	else if(userDate == "23"){
-																		cout << "," << twentyThree << endl << endl;
-																	}
-																	else if(userDate == "24"){
-																		cout << "," << twentyFour << endl << endl;
-																	}
-																	else if(userDate == "25"){
-																		cout << "," << twentyFive << endl << endl;
-																	}
-																	else if(userDate == "26"){
-																		cout << "," << twentySix << endl << endl;
-																	}
-																	else if(userDate == "27"){
-																		cout << "," << twentySeven << endl << endl;
-																	}
-																	else if(userDate == "28"){
-																		cout << "," << twentyEight << endl << endl;
-																	}
-																	else if(userDate == "29"){
-																		cout << "," << twentyNine << endl << endl;
-																	}
-																	else if(userDate == "30"){
-																		cout << "," << thirty << endl << endl;
-																	}
-																	else if(userDate == "31"){
-																		cout << "," << thirtyOne << endl << endl;
-																	}
+								else if(userDate == "2"){
+									cout << "," << two << endl << endl;
+					}
+					else if(userDate == "3"){
+						cout << "," << three << endl << endl;
+					}
+					else if(userDate == "4"){
+						cout <<"," <<  four << endl << endl;
+					}
+					else if(userDate == "5"){
+						cout << "," << five << endl << endl;
+					}
+					else if(userDate == "6"){
+						cout << "," <<  six << endl << endl;
+					}
+					else if(userDate == "7"){
+						cout << "," <<  seven << endl << endl;
+					}
+					else if(userDate == "8"){
+						cout << "," <<  eight << endl << endl;
+					}
+					else if(userDate == "9"){
+						cout << "," <<  nine << endl << endl;
+					}
+					else if(userDate == "10"){
+						cout << "," << ten << endl << endl;
+					}
+					else if(userDate == "11"){
+						cout << "," << eleven << endl << endl;
+					}
+					else if(userDate == "12"){
+						cout << "," << twelve << endl << endl;
+					}
+					else if(userDate == "13"){
+						cout << "," << thirteen << endl << endl;
+					}
+					else if(userDate == "14"){
+						cout << "," << fourteen << endl << endl;
+					}
+					else if(userDate == "15"){
+						cout << "," << fifteen << endl << endl;
+					}
+					else if(userDate == "16"){
+						cout << "," << sixteen << endl << endl;
+					}
+					else if(userDate == "17"){
+						cout << "," << seventeen << endl << endl;
+					}
+					else if(userDate == "18"){
+						cout << "," << eighteen << endl << endl;
+					}
+					else if(userDate == "19"){
+						cout << "," << ninteen << endl << endl;
+					}
+					else if(userDate == "20"){
+						cout << "," << twenty << endl << endl;
+					}
+					else if(userDate == "21"){
+						cout << "," << twentyOne << endl << endl;
+					}
+					else if(userDate == "22"){
+						cout << "," << twentyTwo << endl << endl;
+					}
+					else if(userDate == "23"){
+						cout << "," << twentyThree << endl << endl;
+					}
+					else if(userDate == "24"){
+						cout << "," << twentyFour << endl << endl;
+					}
+					else if(userDate == "25"){
+						cout << "," << twentyFive << endl << endl;
+					}
+					else if(userDate == "26"){
+						cout << "," << twentySix << endl << endl;
+					}
+					else if(userDate == "27"){
+						cout << "," << twentySeven << endl << endl;
+					}
+					else if(userDate == "28"){
+						cout << "," << twentyEight << endl << endl;
+					}
+					else if(userDate == "29"){
+						cout << "," << twentyNine << endl << endl;
+					}
+					else if(userDate == "30"){
+						cout << "," << thirty << endl << endl;
+					}
+					else if(userDate == "31"){
+						cout << "," << thirtyOne << endl << endl;
+					}
 				}
 		
 				
