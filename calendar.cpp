@@ -35,7 +35,8 @@ int main(int argc, char *argv[]) {
 					cout << adEvent << endl;
 					
 					cout << "Additional events - " ;
-					cin >> moreEvent;
+					cin.ignore();
+					getline(cin, moreEvent);
 					
 					file += ", " + moreEvent;
 				}
@@ -45,6 +46,7 @@ int main(int argc, char *argv[]) {
 			outFile.open("DATES.txt");
 			outFile << file;
 			outFile.close();
+			file = "";
 			
 			if(!isFound){
 				cout << "oops, something went wrong:" << endl << "This date does not exist" << endl <<"____________________" << endl << endl;
