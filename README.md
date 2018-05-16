@@ -61,6 +61,6 @@ You can then type an additional event which will be stored in the txt.file or if
 Enter the number of the day (-1 to quit):
 
 # Contributors
-David Serna, John Edwards, Rocky Mazorow
+David Serna, John Edwards
 
 I personally like to thank John Edwwards, who without him, would have not solved the problem of storing information and I also like to thank Mrs. Mazarow, our C++ teacher who cleaned up our code so that its half of what it used to be.
