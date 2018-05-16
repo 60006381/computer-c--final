@@ -60,6 +60,8 @@ You can then type an additional event which will be stored in the txt.file or if
 
 Enter the number of the day (-1 to quit):
 
+If you enter -1, it will end the program. If you enter any other number that isnt -1 or 0, it will give you the date, event, and additional event on that day.
+
 # Contributors
 David Serna, John Edwards
 
