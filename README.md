@@ -31,7 +31,7 @@ The motivation behind Code Calendar was that I always had problems with remember
 
 
 # Installation/Tests
-The files that need to be downloaded can be found in the repositorie computer-c-final, Here is the link to the so that you can access the repositorie "https://github.com/60006381/computer-c-final/edit/master/README.md" and here are the files that need to be downloaded
+The files that need to be downloaded can be found in the repositorie computer-c-final, Here is the link to the so that you can access the repositorie "https://github.com/60006381/computer-c-final" and here are the files that need to be downloaded
  
 DATES.txt
 
