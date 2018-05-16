@@ -19,6 +19,8 @@ the motivation behind Code Calendar was that I always had problems with remember
 
 
 # Installation
+The files that need to be downloaded can be found in the repositorie
+
 Once the correct files are downloaded, The files then have to be saved into the same storage as it will allow the files to interact with each other, I recommend the desktop of the computer. Once you are done with that, use a C++ program to run the  Run the program. when it compiles it will show the following statement.
 
 Enter the number of the day: 
@@ -38,7 +40,10 @@ Date:mm/dd/year
 Event:"___"
 Additional Event - 
 
-You can then type an additional event or if not, enter 0 
+You can then type an additional event or if not, enter 0 for no additional events. Regardless, the program will then prompt you again
+
+Enter the number of the day (-1 to quit):
+
 # Tests
 
 
