@@ -5,9 +5,21 @@
 
 
 # Synopsis
-Code Calendar is a tool that allows you to input a date, which then displays the events that are happening on that day. You can then enter any additional event you remember, which the tool will save in its program.
+Code Calendar is a tool that allows you to input a date, which then displays the events that are happening on that day. You can then enter any additional event you remember, which the tool will save in its program. Here is an excerpt of what the code should look like.
 
-
+```	cout << "Enter the number of the day: ";```
+	```cin >> userDate;```
+	
+```	while(userDate != "-1"){```
+	```	inFile.open("DATES.txt");```
+		
+	```	if(inFile.is_open()){```
+		```	while(!inFile.eof()){```
+			```	getline(inFile, date, '#');```
+			```	getline(inFile, event, '#');```
+				```getline(inFile, adEvent);```
+				
+				```file += date + '#' + event + '#' + adEvent;```
  
 
 
@@ -15,7 +27,7 @@ Code Calendar is a tool that allows you to input a date, which then displays the
 
 
 # Motivation
-the motivation behind Code Calendar was that I always had problems with remembering inportant events that needed to be done. Whenever there was a vacation or relatives visiting, I managed to forget up until the day before the vacation. With Code Calendar, This fulfills both purposes by allowing to see what is happening and then entering any other event happening on that day.
+The motivation behind Code Calendar was that I always had problems with remembering inportant events that needed to be done. Whenever there was a vacation or relatives visiting, I managed to forget up until the day before the vacation. With Code Calendar, This fulfills both purposes by allowing to see what is happening and then entering any other event happening on that day.
 
 
 # Installation/Tests
@@ -41,7 +53,7 @@ Type the current year. Once this is done, it will then show the following inform
 
 Date:mm/dd/year
 
-Event:"___"
+Event:(In this space will be a pre-set events, unless DATES.txt has been modified by the user)
 Additional Event - 
 
 You can then type an additional event which will be stored in the txt.file or if not, enter 0 for no additional events. Regardless, the program will then prompt you again
