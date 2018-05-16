@@ -18,8 +18,12 @@ Code Calendar is a tool that allows you to input a date, which then displays the
 the motivation behind Code Calendar was that I always had problems with remembering inportant events that needed to be done. Whenever there was a vacation or relatives visiting, I managed to forget up until the day before the vacation. With Code Calendar, This fulfills both purposes by allowing to see what is happening and then entering any other event happening on that day.
 
 
-# Installation
-The files that need to be downloaded can be found in the repositorie
+# Installation/Tests
+The files that need to be downloaded can be found in the repositorie computer-c-final, Here is the link to the so that you can access the repositorie "https://github.com/60006381/computer-c-final/edit/master/README.md" and here are the files that need to be downloaded
+ 
+DATES.txt
+
+calendar.cpp
 
 Once the correct files are downloaded, The files then have to be saved into the same storage as it will allow the files to interact with each other, I recommend the desktop of the computer. Once you are done with that, use a C++ program to run the  Run the program. when it compiles it will show the following statement.
 
@@ -40,12 +44,9 @@ Date:mm/dd/year
 Event:"___"
 Additional Event - 
 
-You can then type an additional event or if not, enter 0 for no additional events. Regardless, the program will then prompt you again
+You can then type an additional event which will be stored in the txt.file or if not, enter 0 for no additional events. Regardless, the program will then prompt you again
 
 Enter the number of the day (-1 to quit):
-
-# Tests
-
 
 # Contributors
 David Serna, John Edwards, Rocky Mazorow
